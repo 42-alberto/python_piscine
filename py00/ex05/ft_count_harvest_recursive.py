@@ -5,7 +5,7 @@ And the test that only works if this is the main module
 """
 
 
-def ft_count_days_recursive(days):
+def ft_count_days_recursive(days) -> None:
     if days < 1:
         return
     if days > 1:
@@ -13,7 +13,7 @@ def ft_count_days_recursive(days):
     print(f"Day {days}")
 
 
-def ft_count_harvest_recursive():
+def ft_count_harvest_recursive() -> None:
     ft_count_days_recursive(int(input("Days until harvest: ")))
     print("Harvest time!")
 

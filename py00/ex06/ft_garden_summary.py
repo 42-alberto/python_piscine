@@ -5,7 +5,7 @@ And the test that only works if this is the main module
 """
 
 
-def ft_garden_summary():
+def ft_garden_summary() -> None:
     name = input("Enter garden name: ")
     plants_num = int(input("Enter number of plants: "))
     print(f"Garden: {name}")

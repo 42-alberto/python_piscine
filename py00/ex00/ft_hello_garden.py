@@ -5,7 +5,7 @@ And the test that only works if this is the main module
 """
 
 
-def ft_hello_garden():
+def ft_hello_garden() -> None:
     print("Hello, Garden Community!")
 
 

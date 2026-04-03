@@ -5,7 +5,7 @@ And the test that only works if this is the main module
 """
 
 
-def ft_harvest_total():
+def ft_harvest_total() -> None:
     total = 0
     i = 0
     while i < 3:
